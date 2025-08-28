@@ -6,7 +6,7 @@ def get_connection():
         connection = mysql.connector.connect(
             host="localhost",       # o la IP de tu servidor MySQL
             user="root",            # tu usuario de MySQL
-            password="NAviSEyer10", # tu contraseña
+            password="SERVICIOsocial2025", # tu contraseña
             database="control_actividades"
         )
         return connection
